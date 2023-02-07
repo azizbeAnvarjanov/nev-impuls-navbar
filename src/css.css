@@ -229,6 +229,7 @@
      justify-content: center;
      align-items: flex-start;
      overflow-y: scroll;
+     display: none !important;
    }
 
    .navigation::-webkit-scrollbar
@@ -287,3 +288,36 @@
 
 
 }
+
+
+.wrapper
+{
+    width: 90%;
+    height: 100vh;
+    background: #fff;
+    margin: 200px auto;
+    border-radius: 10px;
+    padding: 50px;
+    overflow-x: scroll;
+}
+
+.wrapper table
+{
+    text-align: center;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border-color: #1609cc;
+    margin-top: 50px;
+}
+
+table td
+{
+    border-collapse: collapse;
+    height: 30px;
+}
+
+.td1
+{
+    width: 100px;
+}
+

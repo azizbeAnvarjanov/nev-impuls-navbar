@@ -185,6 +185,39 @@ function App() {
         </div>
 
       </div>
+      <div className="wrapper">
+           <table border="2" width="1000">
+            <tr>
+              <td className='td1'>#</td>
+              <td colSpan={3}>Rekvizit(Byudjet)</td>
+            </tr>
+            <tr>
+              <td className='td1'>1</td>
+              <td width="200">Hisob raqam</td>
+              <td colSpan={2}>O'zbekiston Respublikasi Moliya vazirligi G'aznachiligi h/r: 23402000300100001010</td>
+            </tr>
+            <tr>
+              <td className='td1'>2</td>
+              <td width="200">INN</td>
+              <td colSpan={2}>201122919</td>
+            </tr>
+            <tr>
+              <td className='td1'>3</td>
+              <td width="200">MFO</td>
+              <td colSpan={2}>00014(XKKM Markaziy bank)</td>
+            </tr>
+            <tr>
+              <td className='td1'>4</td>
+              <td width="200">SHXR</td>
+              <td colSpan={2}>400110860034017950100079002</td>
+            </tr>
+            <tr>
+              <td className='td1'>5</td>
+              <td width="200">INN</td>
+              <td colSpan={2}>202217655</td>
+            </tr>
+           </table>
+      </div>
     </>
   );
 }
